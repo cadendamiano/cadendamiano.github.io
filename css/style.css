@@ -5616,7 +5616,8 @@ button.bg-dark:focus {
   background-color: #1D2A14 !important; }
 
 .bg-testimonial{
-  background-color: #1D2A14 !important;  
+  background-color: #1D2A14 !important; 
+  border-radius: .3rem;
 }
 
 .bg-transparent {
