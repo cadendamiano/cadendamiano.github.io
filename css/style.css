@@ -8131,7 +8131,9 @@ button.bg-dark:focus {
   text-align: right !important; }
 
 .text-center {
-  text-align: center !important; }
+  text-align: center !important;
+  /*background: #feffff;*/
+}
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -8343,7 +8345,7 @@ body {
   font-size: 16px;
   line-height: 1.8;
   font-weight: 400;
-  color: #CCCCCC; }
+  color: #fff; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -8354,10 +8356,12 @@ a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
   transition: .3s all ease;
-  color: #3D5729; }
+  color: #feffff;
+  font-weight: 800;
+}
   a:hover, a:focus {
     text-decoration: none;
-    color: #3e64ff;
+    color: #AB44B3;;
     outline: none !important; }
 
 h1, h2, h3, h4, h5,
@@ -8793,7 +8797,7 @@ h1, h2, h3, h4, h5,
     color: #fff !important; }
     .btn.btn-primary:hover {
       border: 1px solid #F894FF !important;
-      background: #F894FF !important;
+      background: #fff !important;
       color: #000000 !important; }
     .btn.btn-primary.btn-outline-primary {
       border: 2px solid #3e64ff !important;
@@ -8808,14 +8812,14 @@ h1, h2, h3, h4, h5,
     border: 1px solid #F894FF !important;
     color: #F894FF !important; }
     .btn.btn-secondary:hover {
-      border: 1px solid #a0f669 !important;
-      background: transparent !important;
-      color: #a0f669 !important;
+      border: 1px solid #AB44B3 !important;
+      background: #fff !important;
+      color: #AB44B3 !important;
       font-weight: bold;}
     .btn.btn-secondary.btn-outline-primary {
       border: 1px solid #AB44B3;
       background: transparent;
-      color: #a0f669; }
+      color: #fff; }
       .btn.btn-secondary.btn-outline-primary:hover {
         border: 1px solid transparent;
         background: #AB44B3;
@@ -9175,7 +9179,8 @@ h1, h2, h3, h4, h5,
           opacity: 1; }
           .project.img-2 .text span {
             color: rgba(255, 255, 255, 0.8); } }
-  .project .overlay {
+ /*
+.project .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -9221,6 +9226,8 @@ h1, h2, h3, h4, h5,
     opacity: .9; }
   .project:hover .text, .project:focus .text {
     opacity: 1; }
+*/
+
 
 .aside-stretch {
   background: #718dff; }
