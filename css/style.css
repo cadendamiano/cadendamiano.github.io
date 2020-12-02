@@ -345,11 +345,11 @@ img {
     font-weight: 400;
     line-height: 1.2; }
     .testimonial .vcard .vcard-text .position {
-      color: #b3b3b3; }
+      color: #696969; }
   .testimonial strong {
     font-weight: 400;
     padding: .3rem 0;
-    background: #752E7A; }
+    background: #E6DD02; }
 
 img.demo {
   opacity: 0.6;
@@ -681,6 +681,9 @@ pre {
   margin-right: -15px;
   margin-left: -15px; }
 
+.case-study-gutters {
+    padding-right: 10rem;
+    padding-left: 10rem;}
 .no-gutters {
   margin-right: 0;
   margin-left: 0; }
@@ -5616,8 +5619,9 @@ button.bg-dark:focus {
   background-color: #1D2A14 !important; }
 
 .bg-testimonial{
-  background-color: #000000 !important; 
+  background-color: #ffffff !important; 
   border-radius: .3rem;
+  box-shadow:0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 .bg-transparent {
@@ -9292,7 +9296,7 @@ textarea.form-control {
       padding: 6em 0; } }
 
 .ftco-no-pt {
-  padding-top: 2rem !important; }
+  padding-top: 10rem !important; }
 
 .ftco-no-pb {
   padding-bottom: 2rem !important; }
