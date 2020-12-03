@@ -179,14 +179,16 @@ a {
 
 /* Facebook */
 .fa-dribbble {
-  background: #752E7A;
+  background: #fff;
   color: #000;
+  margin-left: -1.2rem;
 }
 
 /* Twitter */
 .fa-linkedin {
-  background: #752E7A;
+  background: #fff;
   color: #000;
+  margin-left: -1rem;
 }
 }
 
@@ -9434,7 +9436,7 @@ textarea.form-control {
     letter-spacing: 3px; }
   .heading-section h1.big {
     position: absolute;
-    top: 1rem;
+    top: 5rem;
     left: 0;
     font-size: 8vw;
     color: rgba(32, 32, 32, 0.05);
@@ -9630,7 +9632,7 @@ textarea.form-control {
   .contact-section .box .icon {
     width: 100px;
     height: 100px;
-    background: #752E7A;
+    background: #fff;
     margin: 0 auto;
     margin-bottom: 10px;
     -webkit-border-radius: 50%;
