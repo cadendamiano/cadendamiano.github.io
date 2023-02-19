@@ -6956,7 +6956,9 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1rem !important; }
+  padding-bottom: 1rem !important;
+margin-bottom: 2rem; !important;
+}
 
 .pl-3,
 .px-3 {
@@ -9451,13 +9453,14 @@ textarea.form-control {
       right: 0; }
   .heading-section h2 {
     font-size: 30px;
-    font-weight: 700;
-    margin-top: 10rem}
+    font-weight: 500;
+    margin-top: 10rem;
+}
     .heading-section h2 span {
       font-weight: 400; }
     @media (max-width: 767.98px) {
       .heading-section h2 {
-        font-size: 38px; } }
+        font-size: 32px; } }
   .heading-section.heading-section-white .subheading {
     color: rgba(255, 255, 255, 0.9) !important; }
   .heading-section.heading-section-white h2 {
