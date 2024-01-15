@@ -9438,6 +9438,7 @@ textarea.form-control {
     font-weight: 500;
     display: block;
     margin-bottom: 5px;
+    margin-top: 5rem;
     text-transform: uppercase;
     color: black;
     letter-spacing: 3px; }
@@ -9454,7 +9455,7 @@ textarea.form-control {
   .heading-section h2 {
     font-size: 30px;
     font-weight: 500;
-    margin-top: 10rem;
+    margin-top: 5rem;
 }
     .heading-section h2 span {
       font-weight: 400; }
